@@ -3,6 +3,7 @@ import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Header from './components/Header'
 import Provider from './Provider'
+import Navbar from './components/Navbar'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Provider>
     
           <Header/>
+          <Navbar/>
 
           {children}
         </Provider>
