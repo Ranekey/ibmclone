@@ -9,7 +9,7 @@ export default function Header() {
       <div className="flex justify-between mx-2 mx-w-6xl sm:mx-auto items-center py-6"> 
         <div className="flex ">
             <MenuItem title="Home" addresse="/" Icon={AiFillHome}/>
-            <MenuItem title="About" addresse="/" Icon={BsFillInfoCircleFill}/>
+            <MenuItem title="About" addresse="/about" Icon={BsFillInfoCircleFill}/>
 
         </div>
         <div className=" flex items-center space-x-5">
