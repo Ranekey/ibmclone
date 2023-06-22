@@ -14,7 +14,7 @@ export default async function Home({searchParams}:{searchParams : any}) {
   {next : {revalidate : 10000}});
 
   if(!res.ok){
-    throw new Error ("failed to fetch data")
+    throw new Error ("failed to fetch data");
   }
   const data = await res.json();
   const results = data.results;
